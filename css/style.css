@@ -2,24 +2,26 @@
 
 :root {
     --primary-color: #184D1E;
-    --secondary-color: #314172;
+    --secondary-color: #253669;
     --accent1-color: #70C291;
     --accent2-color: #BDC3DB;
     --heading-font: 'paprika';
     --paragraph-font: 'hind siliguri', 'Helvetica', 'sans-serif'
 }
 
-header {
+header, footer, main {
     width: 550px;
+    margin: auto;
 }
 
 h1 {
     font-size: 34px;
     font-family: var(--heading-font);
-    background-color: #70C291;
+    background-color: var(--secondary-color);
     border-radius: 10px;
     padding: 20px;
     margin: auto;
+    color: white;
 }
 
 img {
@@ -28,21 +30,32 @@ img {
     border-radius: 10px;
     border-style: outset;
     border: 4px ridge #314172;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+main {
+    width: 550px;
 }
 
 footer {
     width: 550px;
+    height: 80px;
     padding: 5px;
     border-radius: 10px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
 }
 
 .copy {
-    display: inline;
     text-align: center;
+    color: white;
+}
+
+.byui {
+    color: white;
 }
 
 .updated {
     text-align: center;
-    color: yellow;
+    color: rgba(255, 255, 0, 0.664);
 }
