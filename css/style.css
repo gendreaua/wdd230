@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
 :root {
     --primary-color: #184D1E;
     --secondary-color: #314172;
@@ -7,3 +9,40 @@
     --paragraph-font: 'hind siliguri', 'Helvetica', 'sans-serif'
 }
 
+header {
+    width: 550px;
+}
+
+h1 {
+    font-size: 34px;
+    font-family: var(--heading-font);
+    background-color: #70C291;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+img {
+    float: right;
+    margin: 0;
+    border-radius: 10px;
+    border-style: outset;
+    border: 4px ridge #314172;
+}
+
+footer {
+    width: 550px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--accent1-color);
+}
+
+.copy {
+    display: inline;
+    text-align: center;
+}
+
+.updated {
+    text-align: center;
+    color: yellow;
+}
