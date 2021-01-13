@@ -39,11 +39,14 @@ main {
     width: 550px;
 }
 
+p {
+    padding: 0px;
+}
+
 footer {
     width: 700px;
     height: 100px;
     padding: 5px;
-    padding-top: 2px;
     border-radius: 10px;
     background-color: var(--primary-color);
 }
