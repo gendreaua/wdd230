@@ -13,16 +13,16 @@ header, footer, main {
     width: 700px;
     margin: auto;
     font-family: var(--paragraph-font);
-    font-size: 22px;
+    font-size: 25px;
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 42px;
     font-family: var(--heading-font);
     background-color: var(--primary-color);
     border-radius: 10px;
     padding: 20px;
-    margin: auto;
+    text-align: center;
     color: var(--accent-color);
 }
 
@@ -35,17 +35,12 @@ img {
     box-shadow: 3px 3px 3px 3px var(--accent-color);
 }
 
-main {
-    width: 550px;
-}
-
 p {
     padding: 0px;
 }
 
 footer {
     width: 700px;
-    height: 100px;
     padding: 5px;
     border-radius: 10px;
     background-color: var(--primary-color);
