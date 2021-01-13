@@ -9,41 +9,43 @@
     --paragraph-font: 'yeon sung', 'Helvetica', 'sans-serif'
 }
 
-header, footer, main {
-    width: 700px;
-    margin: auto;
+header, footer, main, nav {
+    max-width: 45rem;
+    margin: 0 auto;
     font-family: var(--paragraph-font);
-    font-size: 25px;
+    font-size: 1.25rem;
+    padding: .75rem;
+}
+
+header, footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: var(--accent-color);
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 2rem;
     font-family: var(--heading-font);
-    background-color: var(--primary-color);
-    border-radius: 10px;
     padding: 20px;
     text-align: center;
     color: var(--accent-color);
 }
 
-img {
-    float: right;
+h2 {
+    border-bottom: 1px solid var(--accent-color);
+}
+
+header img {
+    width: 130px;
+    height: auto;
     margin: 0;
-    border-radius: 10px;
     margin-top: 15px;
     margin-right: 15px;
-    box-shadow: 3px 3px 3px 3px var(--accent-color);
 }
 
 p {
     padding: 0px;
-}
-
-footer {
-    width: 700px;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: var(--primary-color);
 }
 
 .copy {

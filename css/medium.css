@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em) {
+    img {
+        float: right;
+        border-radius: 0 10px 0 0;
+        box-shadow: 3px 3px 3px 3px var(--accent-color);
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    header, footer, main {
+        font-size: 1.5rem;
+    }
+}
