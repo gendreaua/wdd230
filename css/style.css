@@ -1,27 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Yeon+Sung&display=swap" rel="stylesheet');
+
 
 :root {
-    --primary-color: #184D1E;
-    --secondary-color: #253669;
-    --accent1-color: #70C291;
-    --accent2-color: #BDC3DB;
-    --heading-font: 'paprika';
-    --paragraph-font: 'hind siliguri', 'Helvetica', 'sans-serif'
+    --primary-color: #8DCEA7;
+    --accent-color: #253669;
+    --accent2-color: #756406;
+    --heading-font: 'merriweather';
+    --paragraph-font: 'yeon sung', 'Helvetica', 'sans-serif'
 }
 
 header, footer, main {
-    width: 550px;
+    width: 700px;
     margin: auto;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 38px;
     font-family: var(--heading-font);
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border-radius: 10px;
     padding: 20px;
     margin: auto;
-    color: white;
+    color: var(--accent-color);
 }
 
 img {
@@ -30,8 +32,7 @@ img {
     border-radius: 10px;
     margin-top: 15px;
     margin-right: 15px;
-    border: 3px solid black;
-    box-shadow: var(--secondary-color);
+    box-shadow: 3px 3px 3px 3px var(--accent-color);
 }
 
 main {
@@ -39,23 +40,24 @@ main {
 }
 
 footer {
-    width: 550px;
-    height: 80px;
+    width: 700px;
+    height: 100px;
     padding: 5px;
+    padding-top: 2px;
     border-radius: 10px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .copy {
     text-align: center;
-    color: white;
+    color: var(--accent-color);
 }
 
 .byui {
-    color: white;
+    color: var(--accent-color);
 }
 
 .updated {
+    color: var(--accent2-color);
     text-align: center;
-    color: rgba(255, 255, 0, 0.664);
 }
