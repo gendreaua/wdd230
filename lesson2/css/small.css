@@ -15,11 +15,13 @@ body {
 
 main {
     background-color: white;
-    width: 700px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
 }
 
-header, footer, main, nav {
-    max-width: 45rem;
+header, footer, nav {
+    max-width: 75rem;
     margin: 0 auto;
     font-family: var(--paragraph-font);
     font-size: 1.25rem;
@@ -32,8 +34,14 @@ header, footer {
     color: var(--accent-color);
 }
 
+section {
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: var(--heading-font);
     padding: 20px;
     text-align: center;
@@ -44,16 +52,43 @@ h2 {
     border-bottom: 1px solid var(--accent-color);
 }
 
-header img {
-    width: 130px;
-    height: auto;
-    margin: 0;
-    margin-top: 15px;
-    margin-right: 15px;
+h3 {
+    color: var(--primary-color);
+    font-size: 1.75rem;
+    font-family: var(--heading-font);
+    padding: 10px;
+    text-align: center;
 }
 
-p {
-    padding: 0px;
+h3, h4 {
+    margin: 0;
+}
+
+div {
+    background-color: var(--accent-color);
+    border-radius: 30px 30px 0 0;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.topLinks {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-family: var(--heading-font);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.principles {
+    font-size: 1.25rem;
+    padding: 15px;
+    text-align: left;
+    border: solid 4px var(--accent-color);
+}
+
+img {
+    border: solid 4px var(--accent-color);
 }
 
 .copy {
