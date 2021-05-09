@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Newsreader&display=swap');
 
 
 :root {
-    --primary-color: #8DCEA7;
-    --accent-color: #253669;
-    --accent2-color: #756406;
-    --heading-font: 'merriweather';
-    --paragraph-font: 'yeon sung', 'Helvetica', 'sans-serif'
+    --primary-color: #001b2e;
+    --accent-color: #adb6c4;
+    --accent2-color: #ffc49b;
+    --accent3-color: #ffefd3;
+    --accent4-color: #294c60;
+    --heading-font: 'libre+baskerville';
+    --paragraph-font: 'newsreader', 'Helvetica', 'sans-serif'
 }
 
 body {
@@ -98,9 +100,4 @@ img {
 
 .byui {
     color: var(--accent-color);
-}
-
-.updated {
-    color: var(--accent2-color);
-    text-align: center;
 }

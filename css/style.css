@@ -43,6 +43,7 @@ h1 {
 
 h2 {
     border-bottom: 1px solid var(--accent-color);
+    text-align: center;
 }
 
 header img {
@@ -55,6 +56,10 @@ header img {
 
 p {
     padding: 0px;
+}
+
+li {
+    padding: 5px;
 }
 
 .copy {
