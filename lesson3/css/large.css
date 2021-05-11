@@ -1,32 +1,5 @@
 @media only screen and (min-width: 60em) {
 
-    main {
-        width: 1100px;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    
-    header, footer, nav {
-        font-size: 2rem;
-    }
-    
-    h1 {
-        font-size: 2.5rem;
-    }
-    
-    h3 {
-        font-size: 1.75rem;
-    }
-
-    .topLinks {
-        font-size: 1.25rem;
-    }
-    
-    .principles {
-        border: solid 4px var(--accent-color);
-    }
-    
-    .thirds {
-        grid-column: 3;
-        grid-row: 1;
-    }   
+  
+  
 }

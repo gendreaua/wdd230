@@ -2,56 +2,54 @@
 
 
 :root {
-    --primary-color: #001b2e;
-    --accent-color: #adb6c4;
-    --accent2-color: #ffc49b;
-    --accent3-color: #ffefd3;
-    --accent4-color: #294c60;
+    --color-oxford: #001b2e;
+    --color-cadet: #adb6c4;
+    --color-peach: #ffc49b;
+    --color-papaya: #ffefd3;
+    --color-charcoal: #294c60;
     --heading-font: 'libre+baskerville';
     --paragraph-font: 'newsreader', 'Helvetica', 'sans-serif'
 }
 
 body {
-    background-color: var(--accent-color);
+    background-color: var(--color-peach);
+    text-align: center;
 }
 
 main {
-    background-color: white;
+    background-color:var(--color-cadet);
     width: 100%;
     padding: 10px;
     margin: 0 auto;
 }
 
-header, footer, nav {
+header, footer {
     max-width: 75rem;
     margin: 0 auto;
     font-family: var(--paragraph-font);
     font-size: 1.25rem;
     padding: .75rem;
-}
-
-header, footer {
-    text-align: center;
     background-color: var(--primary-color);
     color: var(--accent-color);
 }
 
-section {
-    max-width: 300px;
-    padding: 10px;
-    text-align: center;
-}
-
 h1 {
-    font-size: 1.5rem;
-    font-family: var(--heading-font);
-    padding: 20px;
     text-align: center;
-    color: var(--accent-color);
 }
 
-h2 {
-    border-bottom: 1px solid var(--accent-color);
+footer {
+    text-align: center;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+}
+
+.fonts {
+    list-style-type: none;
+    margin: 0;
 }
 
 h3 {
@@ -60,37 +58,6 @@ h3 {
     font-family: var(--heading-font);
     padding: 10px;
     text-align: center;
-}
-
-h3, h4 {
-    margin: 0;
-}
-
-div {
-    background-color: var(--accent-color);
-    border-radius: 30px 30px 0 0;
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-.topLinks {
-    color: var(--primary-color);
-    font-size: 1.25rem;
-    font-family: var(--heading-font);
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.principles {
-    font-size: 1.25rem;
-    padding: 15px;
-    text-align: left;
-    border: solid 4px var(--accent-color);
-}
-
-img {
-    border: solid 4px var(--accent-color);
 }
 
 .copy {
