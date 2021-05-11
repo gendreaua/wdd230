@@ -35,16 +35,50 @@ header, footer {
 
 h1 {
     text-align: center;
+    font-size: 2em;
+    color: var(--color-oxford);
 }
 
 footer {
     text-align: center;
 }
 
-ul.navbar {
+nav ul {
     list-style-type: none;
     margin: 0;
     text-align: left;
+    display: block;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: .5em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25em;
+    padding: .5em;
+}
+
+.navbar:hover {
+    background-color: var(--color-cadet);
+    color: var(--color-oxford);
+    border: 3px solid var(--color-oxford);
+    border-bottom: 3px solid var(--color-cadet);
+}
+
+.ptitle {
+    font-size: 1.75em;
+}
+
+.pbody {
+    font-size: 1.25em;
+    padding: 20px;
+    text-align: center;
 }
 
 .fonts {
@@ -52,12 +86,12 @@ ul.navbar {
     margin: 0;
 }
 
-h3 {
-    color: var(--primary-color);
-    font-size: 1.75rem;
+h2, h3 {
+    font-size: 2em;
     font-family: var(--heading-font);
     padding: 10px;
     text-align: center;
+    color: var(--color-oxford);
 }
 
 .copy {
