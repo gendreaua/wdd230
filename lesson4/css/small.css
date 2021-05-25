@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Newsreader&display=swap');
+
+
+:root {
+    --color-oxford: #001b2e;
+    --color-cadet: #adb6c4;
+    --color-peach: #ffc49b;
+    --color-papaya: #ffefd3;
+    --color-charcoal: #294c60;
+    --heading-font: 'libre+baskerville';
+    --paragraph-font: 'newsreader', 'Helvetica', 'sans-serif'
+}
+
+body {
+    background-color: var(--color-peach);
+    text-align: center;
+}
+
+main {
+    background-color:var(--color-cadet);
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.copy {
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.byui {
+    color: var(--accent-color);
+}
