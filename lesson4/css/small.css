@@ -23,6 +23,48 @@ main {
     margin: 0 auto;
 }
 
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: var(--color-charcoal);
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li a {
+    color: var(--color-papaya);
+}
+
+.navigation a {
+    display: block;
+    padding: .75rem;
+    text-align: left;
+    text-decoration: none;
+    color: var(--color-charcoal);
+    font-weight: 700;
+}
+
+.navigation a:hover {
+    color: var(--color-oxford);
+    background-color: var(--color-peach);
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+
 .copy {
     text-align: center;
     color: var(--accent-color);
