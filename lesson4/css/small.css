@@ -73,3 +73,13 @@ nav {
 .byui {
     color: var(--accent-color);
 }
+
+.currentDate {
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family: var(--paragraph-font);
+    color: var(--color-oxford);
+}
