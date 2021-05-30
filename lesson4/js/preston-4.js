@@ -12,4 +12,4 @@ let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 //const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(now);
 //datefield.innerHTML = `<em>${fulldate}</em>`;
 //datefield.innerHTML = now.toUTCString();
-document.getElementById("currentDate").innerHTML = days[now.getDay()] + ", " + now.getDay() + " " + months[now.getMonth()] + " " + now.getFullYear() 
+document.getElementById("currentDate").innerHTML = days[now.getDay()] + ", " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear() 
